@@ -99,9 +99,9 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 	</image>
 	
 	<image name="md_image">
-		<origin>0 1</origin>
-		<pos>0.03 0.9</pos>
-		<maxSize>0.325 0.89</maxSize>
+		<origin>0.5 1</origin>
+		<pos>0.195 0.9</pos>
+		<maxSize>0.325 0.67</maxSize>
 	</image>
 
 	<textlist name="gamelist">
@@ -111,7 +111,7 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 		<secondaryColor>888888</secondaryColor>
 		<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
 		<pos>0.39 0.03</pos>
-		<size>0.58 0.87</size>
+		<size>0.58 0.86</size>
 		<fontSize>0.06</fontSize>
 		<horizontalMargin>0.01</horizontalMargin>
 	</textlist>
