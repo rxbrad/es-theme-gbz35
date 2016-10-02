@@ -40,7 +40,7 @@ Hit Ctrl-X, and overwrite the original filename.
 
 Once you're out of nano, reboot your Pi.
 ```
-sudo reboot now
+sudo reboot
 ```
 
 After you've rebooted, you should be able to access the themes folder on your RETROPIE machine in Windows through File Explorer.  If asked for a username and password, the defaults are 'pi' & 'raspberry'.
