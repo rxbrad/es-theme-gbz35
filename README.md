@@ -29,8 +29,8 @@ Scroll to the end of the file and add the following lines:
 [themes]
 comment = themes
 path = "/etc/emulationstation/themes/"
-writeable - yes
-guest ok - yes
+writeable = yes
+guest ok = yes
 create mask = 0644
 directory mask = 0755
 force user = pi
