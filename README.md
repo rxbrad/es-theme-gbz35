@@ -1,5 +1,4 @@
-# es-theme-gbz35
-Gameboy Zero 3.5" Theme for EmulationStation
+# Gameboy Zero 3.5" Theme for EmulationStation
 
 ![alt tag](http://i.imgur.com/uQrzXFa.png) ![alt tag](http://i.imgur.com/CM2zs51.png) ![alt tag](http://i.imgur.com/jZWMIdV.png) ![alt tag](http://i.imgur.com/PVOtp8L.png)
 
