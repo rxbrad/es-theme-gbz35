@@ -35,7 +35,7 @@ directory mask = 0755
 force user = pi
 ```
 
-Hit Ctrl-X, and overwrite the original filename.
+Hit Ctrl-X, and overwrite the original file.
 
 Once you're out of nano, reboot your Pi.
 ```
