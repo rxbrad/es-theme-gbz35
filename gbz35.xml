@@ -33,7 +33,7 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 			<origin>0 1</origin>
 			<pos>0 1</pos>
 			<size>1 0.070</size>
-			<color>FFFFFF99</color>
+			<color>FFFFFFaa</color>
 		</image>
 		<helpsystem name="help">
 			<textColor>000000</textColor>
@@ -48,20 +48,20 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 			<path>./_inc/images/bg_color.png</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
-			<size>1 0.18</size>
-			<color>FFFFFF99</color>
+			<size>1 0.16</size>
+			<color>FFFFFFaa</color>
 		</image>
 		<image name="logo">
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.09</pos>
-			<maxSize>0.4 0.16</maxSize>
+			<origin>0.5 0</origin>
+			<pos>0.5 0.02</pos>
+			<maxSize>1 0.12</maxSize>
 		</image>
-		<image name="gamelist_helper" extra="true">
+		<image name="gamelist_background" extra="true">
 			<path>./_inc/images/bg_color.png</path>
-			<origin>0 0</origin>
-			<pos>0.05 0.2</pos>
-			<size>0.9 0.71</size>
-			<color>FFFFFF99</color>
+			<origin>0.5 0</origin>
+			<pos>0.5 0.18</pos>
+			<size>0.96 0.73</size>
+			<color>FFFFFFaa</color>
 		</image>
 		<textlist name="gamelist">
 			<selectorColor>000000</selectorColor>
@@ -69,27 +69,28 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 			<primaryColor>000000</primaryColor>
 			<secondaryColor>888888</secondaryColor>
 			<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
-			<pos>0.05 0.2</pos>
-			<size>0.9 0.71</size>
+			<pos>0.03 0.19</pos>
+			<size>0.937 0.71</size>
 			<fontSize>0.06</fontSize>
+			<lineSpacing>1.37</lineSpacing>
 		</textlist>
 	</view>
 	
     <view name="detailed">
-	<image name="metadata_helper" extra="true">
+	<image name="metadata_background" extra="true">
 		<path>./_inc/images/bg_color.png</path>
 		<origin>0 0</origin>
 		<pos>0.02 0.02</pos>
 		<size>0.35 0.89</size>
-		<color>ddddddcc</color>
+		<color>FFFFFFaa</color>
 	</image>
 
-	<image name="gamelist_helper" extra="true">
+	<image name="gamelist_background" extra="true">
 		<path>./_inc/images/bg_color.png</path>
 		<origin>0 0</origin>
 		<pos>0.38 0.02</pos>
 		<size>0.60 0.89</size>
-		<color>ddddddcc</color>
+		<color>FFFFFFaa</color>
 	</image>
 
 	<image name="logo">
@@ -100,8 +101,8 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 	
 	<image name="md_image">
 		<origin>0.5 1</origin>
-		<pos>0.195 0.9</pos>
-		<maxSize>0.325 0.67</maxSize>
+		<pos>0.195 0.89</pos>
+		<maxSize>0.325 0.66</maxSize>
 	</image>
 
 	<textlist name="gamelist">
@@ -111,7 +112,7 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 		<secondaryColor>888888</secondaryColor>
 		<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
 		<pos>0.39 0.03</pos>
-		<size>0.58 0.86</size>
+		<size>0.577 0.86</size>
 		<fontSize>0.06</fontSize>
 		<horizontalMargin>0.01</horizontalMargin>
 	</textlist>
