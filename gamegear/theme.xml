@@ -15,6 +15,11 @@
 			<color>aeaeae</color>
 			<tile>false</tile>
 		</image>
+		<textlist name="gamelist">
+			<selectorColor>0A473B</selectorColor>
+			<!-- RED = 571C16, ORANGE = 562F0D, GREEN = 114D2A, 
+			TURQUOISE = 0A473B, BLUE = 143952, PURPLE = 3A2144 -->
+		</textlist>
 	</view>
     <view name="basic"></view>
     <view name="detailed">
