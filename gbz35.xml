@@ -96,13 +96,13 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 	<image name="logo">
 		<origin>0 0</origin>
 		<pos>0.03 0.04</pos>
-		<maxSize>0.325 0.195</maxSize>
+		<maxSize>0.325 0.16</maxSize>
 	</image>
 	
 	<image name="md_image">
 		<origin>0.5 1</origin>
 		<pos>0.195 0.89</pos>
-		<maxSize>0.325 0.66</maxSize>
+		<maxSize>0.325 0.6</maxSize>
 	</image>
 
 	<textlist name="gamelist">
@@ -116,6 +116,25 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 		<fontSize>0.06</fontSize>
 		<horizontalMargin>0.01</horizontalMargin>
 	</textlist>
+	
+	<image name="md_hidden">
+	<pos>0.085 0.275</pos>
+	<path>./_inc/images/hidden.png</path>
+	<maxSize>0.06 0.06</maxSize>
+	<origin>0.5 1</origin>
+	</image>
+	<image name="md_kidgame">
+	<pos>0.195 0.275</pos>
+	<path>./_inc/images/child.png</path>
+	<maxSize>0.06 0.06</maxSize>
+	<origin>0.5 1</origin>
+	</image>
+	<image name="md_favorite">
+	<pos>0.305 0.275</pos>
+	<path>./_inc/images/star.png</path>
+	<maxSize>0.06 0.06</maxSize>
+	<origin>0.5 1</origin>
+	</image>
 	
 	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
     <pos>1 1</pos>
