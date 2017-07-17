@@ -1,6 +1,6 @@
 <!--
 theme name:     Gameboy Zero 3.5"
-version:        1.0
+version:        1.1
 author:         Brad Miller
 email:          brad@rxbrad.com
 website:        RxBrad.com
@@ -12,7 +12,7 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 
     <formatVersion>4</formatVersion>
 
-    <view name="system, basic, detailed">
+    <view name="system, basic, detailed, video">
 		<image name="background_color" extra="true">
 			<path>./_inc/images/bg_color.png</path>
 			<origin>0 0</origin>
@@ -76,7 +76,45 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 		</textlist>
 	</view>
 	
-    <view name="detailed">
+	<view name="detailed">
+		<image name="md_image">
+		<origin>0.5 1</origin>
+		<pos>0.195 0.89</pos>
+		<maxSize>0.325 0.6</maxSize>
+		</image>
+	</view>
+
+	<feature supported="video">
+		<view name="video">
+			<video name="md_video">
+				<origin>0.5 1</origin>
+				<pos>0.195 0.89</pos>
+				<maxSize>0.325 0.325</maxSize>
+				<delay>1</delay>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>true</showSnapshotDelay>
+			</video>
+
+			<image name="md_marquee">
+				<maxSize>0.325 0.260</maxSize>
+				<pos>0.195 0.55</pos>
+				<origin>0.5 1</origin>
+			</image>
+		</view>
+	</feature>
+	
+	<feature supported="z-index">
+		<view name="video">
+				<video name="md_video">
+				<zIndex>120</zIndex>
+				</video>
+				<image name="md_marquee">
+				<zIndex>140</zIndex>
+				</image>
+		</view>
+	</feature>
+
+    <view name="detailed,video">
 	<image name="metadata_background" extra="true">
 		<path>./_inc/images/bg_color.png</path>
 		<origin>0 0</origin>
@@ -99,12 +137,6 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 		<maxSize>0.325 0.16</maxSize>
 	</image>
 	
-	<image name="md_image">
-		<origin>0.5 1</origin>
-		<pos>0.195 0.89</pos>
-		<maxSize>0.325 0.6</maxSize>
-	</image>
-
 	<textlist name="gamelist">
 		<selectorColor>000000</selectorColor>
 		<selectedColor>FFFFFF</selectedColor>
@@ -118,27 +150,29 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 	</textlist>
 	
 	<image name="md_hidden">
-	<pos>0.085 0.275</pos>
-	<path>./_inc/images/hidden.png</path>
-	<maxSize>0.06 0.06</maxSize>
+		<pos>0.085 0.275</pos>
+		<path>./_inc/images/hidden.png</path>
+		<maxSize>0.06 0.06</maxSize>
 	<origin>0.5 1</origin>
+	
 	</image>
-	<image name="md_kidgame">
-	<pos>0.195 0.275</pos>
-	<path>./_inc/images/child.png</path>
-	<maxSize>0.06 0.06</maxSize>
-	<origin>0.5 1</origin>
+		<image name="md_kidgame">
+		<pos>0.195 0.275</pos>
+		<path>./_inc/images/child.png</path>
+		<maxSize>0.06 0.06</maxSize>
+		<origin>0.5 1</origin>
 	</image>
+	
 	<image name="md_favorite">
-	<pos>0.305 0.275</pos>
-	<path>./_inc/images/star.png</path>
-	<maxSize>0.06 0.06</maxSize>
-	<origin>0.5 1</origin>
+		<pos>0.305 0.275</pos>
+		<path>./_inc/images/star.png</path>
+		<maxSize>0.06 0.06</maxSize>
+		<origin>0.5 1</origin>
 	</image>
 	
 	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
-    <pos>1 1</pos>
-</text>
+		<pos>1 1</pos>
+	</text>
 	
 	</view>
 

@@ -3,7 +3,7 @@
     <formatVersion>4</formatVersion>
     <include>./../gbz35.xml</include>
 
-    <view name="system, basic, detailed">
+    <view name="system, basic, detailed, video">
 		<image name="logo">
 			<path>./system.svg</path>
 		</image>
@@ -17,13 +17,13 @@
 		</image>
 		<textlist name="gamelist">
 			<selectorColor>571C16</selectorColor>
-			<!-- RED = 571C16, ORANGE = 562F0D, GREEN = 114D2A, 
+			<!-- Light theme -- RED = 571C16, ORANGE = 562F0D, GREEN = 114D2A, 
 			TURQUOISE = 0A473B, BLUE = 143952, PURPLE = 3A2144 -->
 		</textlist>
 	</view>
-    <view name="basic"></view>
+    <view name="basic">
+    </view>
     <view name="detailed">
-	
-	</view>
+    </view>
 
 </theme>

@@ -3,7 +3,7 @@
     <formatVersion>4</formatVersion>
     <include>./../gbz35.xml</include>
 
-    <view name="system, basic, detailed">
+    <view name="system, basic, detailed, video">
 		<image name="logo">
 			<path>./system.svg</path>
 		</image>
