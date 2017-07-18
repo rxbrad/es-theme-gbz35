@@ -6,15 +6,22 @@
 
 This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-carbon), [Spare](https://github.com/mattrixk/es-theme-spare), and [SimpleBigArt](https://github.com/robertybob/es-theme-simplebigart) themes.  It is optimized for resolutions up to 640x480 on small 4:3 screens (like the 3.5" screens commonly used in Gameboy Zero builds).  It also works on 16:9 screens but you will notice that the background art is stretched when viewing in this aspect.
 
-Installation (focused on PC users)
+Changelog
+-----------
+
+- Update #2 - Jul 18, 2017: Added c64, colecovision, intellivision, kodi, & ti99
+- Update Jul 18, 2017: Added favorite, all games, recently played and custom-collections functionality
+- Update Jul 17, 2017: Added support for video previews (be sure you're on the latest version of RetroPie, and note that the Pi Zero apparently struggles with video previews in RetroPie, so you may only want to scrape videos if you have a Pi2 or Pi3 in your GBZ); fixed Retropie menu screen theme
+- Update Feb 9, 2017: Added dark theme and Dosbox section to theme
+- Update Dec 16, 2016: Added Child-friendly EmulationStation Icon support in the detailed view
+- Update Oct 4, 2016: I tweaked the Basic View to show an 8th game on the screen, and colorized the selected game on the list to match the current system's theme.
+
+Installation (using Samba share & Windows PC)
 -----------
 
 Use the green button at the top of this Git to download the theme as a ZIP file.
 
-You will need to connect the Pi Zero to Wifi.  Then, from another computer on the same WiFi network, SSH in (use Putty on PCs).  The default password is 'raspberry'.:
-```
-ssh pi@retropie.local
-```
+You will need to connect the Pi Zero to Wifi.  Then, from another computer on the same WiFi network, SSH in (use Putty on PCs).  The default username is 'pi' and default password is 'raspberry'.
 
 Now modify the permissions on the themes folder so you can copy themes to it over Wifi.
 ```
