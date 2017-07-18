@@ -9,6 +9,7 @@ This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-
 Changelog
 -----------
 
+- Update #3 - Jul 18, 2017: Fixed clipping at the bottom of the gamelist at certain resolutions
 - Update #2 - Jul 18, 2017: Added c64, colecovision, intellivision, kodi, & ti99
 - Update Jul 18, 2017: Added favorite, all games, recently played and custom-collections functionality
 - Update Jul 17, 2017: Added support for video previews (be sure you're on the latest version of RetroPie, and note that the Pi Zero apparently struggles with video previews in RetroPie, so you may only want to scrape videos if you have a Pi2 or Pi3 in your GBZ); fixed Retropie menu screen theme
