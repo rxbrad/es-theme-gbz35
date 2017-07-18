@@ -1,6 +1,6 @@
 # Gameboy Zero 3.5" Theme for EmulationStation
 
-[Click here for alternative Dark version of this theme](https://github.com/rxbrad/es-theme-gbz35/tree/dark)
+[Click here for alternative Dark version of this theme](https://github.com/rxbrad/es-theme-gbz35-dark)
 
 ![System Select Screen](http://i.imgur.com/uQrzXFa.png) ![Detailed Game List](http://i.imgur.com/Ud4IsZW.png) ![Basic Game List](http://i.imgur.com/d9TTEjV.png) ![Detailed Game List #2](http://i.imgur.com/0awaj5E.png)
 
