@@ -26,11 +26,13 @@ Inside RetroPie-Setup, first run "Update RetroPie-Setup script". Then go to Conf
 
 Note that you will need a current installation of RetroPie to use some of the newer features like the Last Played list and video previews. If you have an older version of RetroPie installed and want to enable these features, go back into RetroPie-Setup and choose "Update all installed packages". I typically say yes when it asks me to update underlying OS packages. Then you wait. On a Pi Zero, don't be surprised if this takes a couple hours.
 
-Installation (using Samba share & Windows PC)
+Installation (Obsolete Method using Samba share & Windows PC)
 -----------
 
 ``` diff
-- **NOTE: This theme can now be installed through RetroPie-Setup, and that is the recommended method of installation.  The instructions below are no longer necessary, but I'm leaving them here to help those who might want to undo the changes they made to install the theme using the old method.**
+- NOTE: This theme can now be installed through RetroPie-Setup, and that is the recommended method of installation.
+
+The instructions below are no longer necessary, but I'm leaving them here to help those who might want to undo the changes they made to install the theme using the old method.**
 ```
 
 Use the green button at the top of this Git to download the theme as a ZIP file.
