@@ -17,8 +17,21 @@ Changelog
 - Update Dec 16, 2016: Added Child-friendly EmulationStation Icon support in the detailed view
 - Update Oct 4, 2016: I tweaked the Basic View to show an 8th game on the screen, and colorized the selected game on the list to match the current system's theme.
 
+Recommended Installation Method
+-----------
+
+Both GBZ35 themes can now be installed directly from RetroPie-Setup (network connectivity required).
+
+Inside RetroPie-Setup, first run "Update RetroPie-Setup script". Then go to Configuration/Tools, then esthemes, and scroll down to find the themes. Once installed, you can exit RetroPie-Setup and apply the theme under UI Settings.
+
+Note that you will need a current installation of RetroPie to use some of the newer features like the Last Played list and video previews. If you have an older version of RetroPie installed and want to enable these features, go back into RetroPie-Setup and choose "Update all installed packages". I typically say yes when it asks me to update underlying OS packages. Then you wait. On a Pi Zero, don't be surprised if this takes a couple hours.
+
 Installation (using Samba share & Windows PC)
 -----------
+
+``` diff
++ **NOTE: This theme can now be installed through RetroPie-Setup, and that is the recommended method of installation.  The instructions below are no longer necessary, but I'm leaving them here to help those who might want to undo the changes they made to install the theme using the old method.**
+```
 
 Use the green button at the top of this Git to download the theme as a ZIP file.
 
