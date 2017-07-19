@@ -30,7 +30,7 @@ Installation (using Samba share & Windows PC)
 -----------
 
 ``` diff
-+ **NOTE: This theme can now be installed through RetroPie-Setup, and that is the recommended method of installation.  The instructions below are no longer necessary, but I'm leaving them here to help those who might want to undo the changes they made to install the theme using the old method.**
+- **NOTE: This theme can now be installed through RetroPie-Setup, and that is the recommended method of installation.  The instructions below are no longer necessary, but I'm leaving them here to help those who might want to undo the changes they made to install the theme using the old method.**
 ```
 
 Use the green button at the top of this Git to download the theme as a ZIP file.
