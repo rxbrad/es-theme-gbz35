@@ -1,6 +1,6 @@
 <!--
 theme name:     Gameboy Zero 3.5"
-version:        1.12
+version:        1.11
 author:         Brad Miller
 email:          brad@rxbrad.com
 website:        RxBrad.com
@@ -67,12 +67,12 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 			<selectorColor>000000</selectorColor>
 			<selectedColor>FFFFFF</selectedColor>
 			<primaryColor>000000</primaryColor>
-			<secondaryColor>888888</secondaryColor>
+			<secondaryColor>000066</secondaryColor>
 			<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
 			<pos>0.03 0.19</pos>
-			<size>0.937 0.69</size>
+			<size>0.937 0.71</size>
 			<fontSize>0.06</fontSize>
-			<lineSpacing>1.40</lineSpacing>
+			<lineSpacing>1.37</lineSpacing>
 		</textlist>
 	</view>
 	
@@ -141,12 +141,11 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 		<selectorColor>000000</selectorColor>
 		<selectedColor>FFFFFF</selectedColor>
 		<primaryColor>000000</primaryColor>
-		<secondaryColor>888888</secondaryColor>
+		<secondaryColor>000066</secondaryColor>
 		<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
 		<pos>0.39 0.03</pos>
 		<size>0.577 0.86</size>
-		<fontSize>0.055</fontSize>
-		<lineSpacing>1.50</lineSpacing>
+		<fontSize>0.06</fontSize>
 		<horizontalMargin>0.01</horizontalMargin>
 	</textlist>
 	
@@ -154,7 +153,7 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 		<pos>0.085 0.275</pos>
 		<path>./_inc/images/hidden.png</path>
 		<maxSize>0.06 0.06</maxSize>
-		<origin>0.5 1</origin>
+	<origin>0.5 1</origin>
 	
 	</image>
 		<image name="md_kidgame">
