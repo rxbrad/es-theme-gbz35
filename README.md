@@ -9,6 +9,7 @@ This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-
 Changelog
 -----------
 
+- Update Jul 20, 2017: Added MAME variants; folder highlighting in gamelist; prepend folder name with § (Alt-0167) to add a folder icon (need to start folder name with a space to move to top of list)
 - Update #3 - Jul 18, 2017: Fixed clipping at the bottom of the gamelist at certain resolutions
 - Update #2 - Jul 18, 2017: Added c64, colecovision, intellivision, kodi, & ti99
 - Update Jul 18, 2017: Added favorite, all games, recently played and custom-collections functionality
