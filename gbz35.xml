@@ -16,7 +16,7 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 		<view name="system">
 			<carousel name="systemcarousel">
 				<color>FFFFFFcc</color>
-				<logoSize>0.22 0.155</logoSize>
+				<logoSize>0.22 0.115</logoSize>
 				<logoScale>1.7</logoScale>
 			</carousel>
 			
