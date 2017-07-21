@@ -14,11 +14,17 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 	
 	<feature supported="carousel">
 		<view name="system">
+			<carousel name="systemcarousel">
+				<color>FFFFFFcc</color>
+				<logoSize>0.22 0.155</logoSize>
+				<logoScale>1.7</logoScale>
+			</carousel>
+			
 			<text name="systemInfo">
-				<backgroundColor>FFFFFFaa</backgroundColor>
+				<backgroundColor>FFFFFF99</backgroundColor>
 				<color>000000</color>
 				<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
-				<fontSize>0.045</fontSize>
+				<fontSize>0.05</fontSize>
 			</text>
 		</view>
 	</feature>
