@@ -13,6 +13,7 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
     <formatVersion>4</formatVersion>
 	
 	<feature supported="carousel">
+		<view name="system">
 			<text name="systemInfo">
 				<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
 				<fontSize>0.045</fontSize>
