@@ -2,13 +2,14 @@
 
 [Click here for alternative Dark version of this theme](https://github.com/rxbrad/es-theme-gbz35-dark)
 
-![System Select Screen](http://i.imgur.com/rbEkdJC.png) ![Detailed Game List](http://i.imgur.com/Ud4IsZW.png) ![Basic Game List](http://i.imgur.com/d9TTEjV.png) ![Detailed Game List #2](http://i.imgur.com/0awaj5E.png)
+![System Select Screen](http://i.imgur.com/UsW5xfT.png) ![Detailed Game List](http://i.imgur.com/Ud4IsZW.png) ![Basic Game List](http://i.imgur.com/d9TTEjV.png) ![Detailed Game List #2](http://i.imgur.com/0awaj5E.png)
 
 This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-carbon), [Spare](https://github.com/mattrixk/es-theme-spare), and [SimpleBigArt](https://github.com/robertybob/es-theme-simplebigart) themes.  It is optimized for resolutions up to 640x480 on small 4:3 screens (like the 3.5" screens commonly used in Gameboy Zero builds).  It also works on 16:9 screens but you will notice that the background art is stretched when viewing in this aspect.
 
 Changelog
 -----------
 
+- Update Jul 21, 2017: Added carousel theming
 - Update Jul 20, 2017: Added MAME variants; folder highlighting in gamelist; prepend folder name with § (Alt-0167) to add a folder icon (need to start folder name with a space to move to top of list)
 - Update #3 - Jul 18, 2017: Fixed clipping at the bottom of the gamelist at certain resolutions
 - Update #2 - Jul 18, 2017: Added c64, colecovision, intellivision, kodi, & ti99
