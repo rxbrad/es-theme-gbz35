@@ -4,7 +4,7 @@
 
 ![System Select Screen](http://i.imgur.com/UsW5xfT.png) ![Detailed Game List](http://i.imgur.com/Ud4IsZW.png) ![Basic Game List](http://i.imgur.com/d9TTEjV.png) ![Detailed Game List #2](http://i.imgur.com/0awaj5E.png)
 
-This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-carbon), [Spare](https://github.com/mattrixk/es-theme-spare), and [SimpleBigArt](https://github.com/robertybob/es-theme-simplebigart) themes.  It is optimized for resolutions up to 640x480 on small 4:3 screens (like the 3.5" screens commonly used in Gameboy Zero builds).  It also works on 16:9 screens but you will notice that the background art is stretched when viewing in this aspect.
+This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-carbon) (controller & system vector art), [Spare](https://github.com/mattrixk/es-theme-spare) (preliminary layout), and [SimpleBigArt](https://github.com/robertybob/es-theme-simplebigart) (preliminary background art) themes.  It is optimized for resolutions up to 640x480 on small 4:3 screens (like the 3.5" screens commonly used in Gameboy Zero builds).  It also works on 16:9 screens but you will notice that the background art is stretched when viewing in this aspect.
 
 Changelog
 -----------
