@@ -19,6 +19,10 @@ Changelog
 - Update Dec 16, 2016: Added Child-friendly EmulationStation Icon support in the detailed view
 - Update Oct 4, 2016: I tweaked the Basic View to show an 8th game on the screen, and colorized the selected game on the list to match the current system's theme.
 
+License
+-----------
+Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/3.0/
+
 Recommended Installation Method
 -----------
 
