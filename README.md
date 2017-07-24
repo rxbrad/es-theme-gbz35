@@ -21,7 +21,7 @@ Changelog
 
 License
 -----------
-Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/3.0/
+Creative Commons CC BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 Recommended Installation Method
 -----------
