@@ -9,6 +9,7 @@ This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-
 Changelog
 -----------
 
+- Update Apr 24, 2018: Added Dreamcast
 - Update Feb 26, 2018: Added Famicom, Super Famicom, & TurboGraphx-16 theme; made multiple logo texts white on Dark theme; updated Genesis/MegaDrive & PCEngine/TG16 logos to use official theming process ([see here](https://github.com/retropie/retropie-setup/wiki/Mega-Drive-Genesis) to get the Genesis logo back, and [see here](https://github.com/retropie/retropie-setup/wiki/PC-Engine) to get TG16 logo back)
 - Update Jul 21, 2017: Added carousel theming
 - Update Jul 20, 2017: Added MAME variants; folder highlighting in gamelist; prepend folder name with § (Alt-0167) to add a folder icon (need to start folder name with a space to move to top of list)
