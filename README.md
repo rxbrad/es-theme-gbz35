@@ -9,6 +9,7 @@ This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-
 Changelog
 -----------
 
+- Update Nov 20, 2019: Improved handling of missing systems. Fix system logo alignment in detailed/video views. Added Atari 800, Atari 5200, PC Engine (alternative PCE naming), & ZX Spectrum.
 - Update May 6, 2018: Fix broken Famicom & Super Famicom logos
 - Update Apr 24, 2018: Added Dreamcast
 - Update Feb 26, 2018: Added Famicom, Super Famicom, & TurboGraphx-16 theme; made multiple logo texts white on Dark theme; updated Genesis/MegaDrive & PCEngine/TG16 logos to use official theming process ([see here](https://github.com/retropie/retropie-setup/wiki/Mega-Drive-Genesis) to get the Genesis logo back, and [see here](https://github.com/retropie/retropie-setup/wiki/PC-Engine) to get TG16 logo back)
@@ -89,3 +90,4 @@ The name of the folder you just copied is how it's listed in RetroPie.  Once it'
 Restart EmulationStation on your Pi, and you should be able to switch to this theme in the UI Settings.
 
 ![alt tag](http://i.imgur.com/vbATdHH.png)
+i.imgur.com/vbATdHH.png)
