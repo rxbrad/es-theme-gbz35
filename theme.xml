@@ -1,0 +1,227 @@
+<!--
+theme name:     Gameboy Zero 3.5"
+version:        1.14
+author:         Brad Miller
+email:          brad@rxbrad.com
+website:        RxBrad.com
+license:        creative commons CC BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/3.0/
+based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigArt" by Ewzzy
+-->
+
+<theme>
+
+    <formatVersion>4</formatVersion>
+	
+	<feature supported="carousel">
+		<view name="system">
+			<carousel name="systemcarousel">
+				<color>FFFFFFcc</color>
+				<logoSize>0.22 0.115</logoSize>
+				<logoScale>1.7</logoScale>
+			</carousel>
+			
+			<text name="logoText">
+				<forceUppercase>true</forceUppercase>
+			</text>
+			
+			<text name="systemInfo">
+				<backgroundColor>FFFFFF99</backgroundColor>
+				<color>000000</color>
+				<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
+				<fontSize>0.05</fontSize>
+			</text>
+		</view>
+	</feature>
+
+    <view name="system, basic, detailed, video">
+		<image name="background_color" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>d4d4d4</color>
+		</image>
+		<image name="background_pattern" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<color>aeaeae</color>
+			<tile>true</tile>
+		</image>
+		<image name="background_help" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 1</origin>
+			<pos>0 1</pos>
+			<size>1 0.070</size>
+			<color>FFFFFFaa</color>
+		</image>
+		<helpsystem name="help">
+			<textColor>000000</textColor>
+			<iconColor>000000</iconColor>
+			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+		</helpsystem>
+	</view>
+    
+	<view name="basic">
+		<image name="background_logo" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 0.16</size>
+			<color>FFFFFFaa</color>
+		</image>
+		<image name="logo">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.02</pos>
+			<maxSize>1 0.12</maxSize>
+		</image>
+		<text name="logoText">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.02</pos>
+			<size>1 0.12</size>
+			<fontSize>0.12</fontSize>
+		</text>
+		<image name="gamelist_background" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0.5 0</origin>
+			<pos>0.5 0.18</pos>
+			<size>0.96 0.73</size>
+			<color>FFFFFFaa</color>
+		</image>
+		<textlist name="gamelist">
+			<selectorColor>000000</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>000066</secondaryColor>
+			<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
+			<pos>0.03 0.19</pos>
+			<size>0.937 0.69</size>
+			<fontSize>0.06</fontSize>
+			<lineSpacing>1.40</lineSpacing>
+		</textlist>
+	</view>
+	
+	<view name="detailed">
+		<image name="md_image">
+		<origin>0.5 1</origin>
+		<pos>0.195 0.89</pos>
+		<maxSize>0.325 0.6</maxSize>
+		</image>
+	</view>
+
+	<feature supported="video">
+		<view name="video">
+			<video name="md_video">
+				<origin>0.5 1</origin>
+				<pos>0.195 0.89</pos>
+				<maxSize>0.325 0.325</maxSize>
+				<delay>1</delay>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>true</showSnapshotDelay>
+			</video>
+
+			<image name="md_marquee">
+				<maxSize>0.325 0.260</maxSize>
+				<pos>0.195 0.55</pos>
+				<origin>0.5 1</origin>
+			</image>
+		</view>
+	</feature>
+	
+	<feature supported="z-index">
+		<view name="video">
+				<video name="md_video">
+				<zIndex>120</zIndex>
+				</video>
+				<image name="md_marquee">
+				<zIndex>140</zIndex>
+				</image>
+		</view>
+	</feature>
+
+    <view name="detailed,video">
+	<image name="metadata_background" extra="true">
+		<path>./_inc/images/bg_color.png</path>
+		<origin>0 0</origin>
+		<pos>0.02 0.02</pos>
+		<size>0.35 0.89</size>
+		<color>FFFFFFaa</color>
+	</image>
+
+	<image name="gamelist_background" extra="true">
+		<path>./_inc/images/bg_color.png</path>
+		<origin>0 0</origin>
+		<pos>0.38 0.02</pos>
+		<size>0.60 0.89</size>
+		<color>FFFFFFaa</color>
+	</image>
+
+	<image name="logo">
+		<origin>0.5 0</origin>
+		<pos>0.195 0.04</pos>
+		<maxSize>0.325 0.16</maxSize>
+	</image>
+	
+	<text name="logoText">
+		<origin>0.5 0</origin>
+		<pos>0.195 0.04</pos>
+		<size>0.325 0.16</size>
+		<fontSize>0.08</fontSize>
+		<lineSpacing>1</lineSpacing>
+	</text>
+	
+	<textlist name="gamelist">
+		<selectorColor>000000</selectorColor>
+		<selectedColor>FFFFFF</selectedColor>
+		<primaryColor>000000</primaryColor>
+		<secondaryColor>000066</secondaryColor>
+		<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
+		<pos>0.39 0.03</pos>
+		<size>0.577 0.86</size>
+		<fontSize>0.055</fontSize>
+		<lineSpacing>1.50</lineSpacing>
+		<horizontalMargin>0.01</horizontalMargin>
+	</textlist>
+	
+	<image name="md_hidden">
+		<pos>0.085 0.275</pos>
+		<path>./_inc/images/hidden.png</path>
+		<maxSize>0.06 0.06</maxSize>
+	<origin>0.5 1</origin>
+	
+	</image>
+		<image name="md_kidgame">
+		<pos>0.195 0.275</pos>
+		<path>./_inc/images/child.png</path>
+		<maxSize>0.06 0.06</maxSize>
+		<origin>0.5 1</origin>
+	</image>
+	
+	<image name="md_favorite">
+		<pos>0.305 0.275</pos>
+		<path>./_inc/images/star.png</path>
+		<maxSize>0.06 0.06</maxSize>
+		<origin>0.5 1</origin>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+		<pos>1 1</pos>
+	</text>
+	
+	<text name="md_rating, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
+    <pos>1 1</pos>
+	</text>
+	
+	<rating name="md_rating">
+    <pos>1 1</pos>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+    <pos>1 1</pos>
+	</datetime>
+	
+	</view>
+
+</theme>
