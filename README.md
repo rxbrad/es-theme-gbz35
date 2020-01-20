@@ -9,6 +9,7 @@ This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-
 Changelog
 -----------
 
+- Update Jan 20, 2020: Added blank margins around system logos where EmulationStation was clipping the right edge of the image
 - Update Jan 8, 2020: Added PC-Engine CD & TurboGrafx CD
 - Update Nov 20, 2019: Improved handling of missing systems. Fix system logo alignment in detailed/video views. Added Atari 800, Atari 5200, PC Engine (alternative PCE naming), & ZX Spectrum.
 - Update May 6, 2018: Fix broken Famicom & Super Famicom logos
@@ -92,3 +93,4 @@ Restart EmulationStation on your Pi, and you should be able to switch to this th
 
 ![alt tag](http://i.imgur.com/vbATdHH.png)
 i.imgur.com/vbATdHH.png)
+g)

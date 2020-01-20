@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="274.24991"
-   height="49.612206"
-   viewBox="0 0 72.561952 13.126563"
+   width="283.24991"
+   height="53.612209"
+   viewBox="0 0 74.943199 14.184896"
    version="1.1"
    id="svg9136"
-   inkscape:version="0.92.0 r15299"
-   sodipodi:docname="All_games_udb_text_only.svg">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="system.svg">
   <defs
      id="defs9130" />
   <sodipodi:namedview
@@ -25,22 +25,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="111.95131"
-     inkscape:cy="40.575379"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-56.068971"
+     inkscape:cy="48.358313"
      inkscape:document-units="px"
      inkscape:current-layer="text4594"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="112"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:pagecheckerboard="true" />
   <metadata
      id="metadata9133">
     <rdf:RDF>
@@ -57,14 +58,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-15.007203,-270.97123)">
+     transform="translate(-15.007203,-269.91291)">
     <g
        aria-label="All Games"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.44046021px;line-height:12.77528667px;font-family:'namco regular';-inkscape-font-specification:'namco regular, ';letter-spacing:0px;word-spacing:0px;fill:#fbe01b;fill-opacity:1;stroke:none;stroke-width:0.51101148px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="text4594">
       <g
          id="g4635"
-         transform="matrix(0.81755495,0,0,0.81755495,6.4461856,50.518918)">
+         transform="matrix(0.81755495,0,0,0.81755495,7.5045189,49.989751)">
         <path
            sodipodi:nodetypes="scsccccccccccccccccccscssccccscscccscccccccccscscccccccccccccccscsccsccccccccccccccccccccsccccccccccccccccccccccccscscsccccccccccccccccccccscccccccccscccccccscccccccscccccccscccccccccccscccccccscccscsccccccc"
            inkscape:connector-curvature="0"
