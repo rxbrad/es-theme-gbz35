@@ -9,6 +9,7 @@ This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-
 
 Changelog
 -----------
+- Update Feb 24, 2020: Added Open Beats of Rage
 - Update Feb 4, 2020: Added 3DO, Amstrad CPC, Tandy Color Computer, Dragon 32, TRS-80, & X68000. Tweaked SuperGrafx Logo.
 - Update Jan 22, 2020: Added Apple II, PS2, Wii, & Xbox. Improved contrast & visibility on some system logos.
 - Update #2 - Jan 20, 2020: Added Nintendo Gamecube, Sega Saturn, SuperGrafx, & Wonderswan Color.
