@@ -9,6 +9,7 @@ This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-
 Changelog
 -----------
 
+- Update June 8, 2020: **RG350/RG280 Branch:** Uses July 24, 2017 build, and adds all systems added to current date
 - Update Jul 21, 2017: Added carousel theming
 - Update Jul 20, 2017: Added MAME variants; folder highlighting in gamelist; prepend folder name with § (Alt-0167) to add a folder icon (need to start folder name with a space to move to top of list)
 - Update #3 - Jul 18, 2017: Fixed clipping at the bottom of the gamelist at certain resolutions
