@@ -9,6 +9,7 @@ This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-
 
 Changelog
 -----------
+- Update June 8, 2020: Added Pokemon Mini
 - Update Feb 25, 2020: Vectorized a brand new Open Beats of Rage logo (old one crashed RetroPie)
 - Update Feb 24, 2020: Added Open Beats of Rage
 - Update Feb 4, 2020: Added 3DO, Amstrad CPC, Tandy Color Computer, Dragon 32, TRS-80, & X68000. Tweaked SuperGrafx Logo.
