@@ -1,7 +1,7 @@
 <!--
-theme name:     Gameboy Zero 3.5"
-version:        1.14
-author:         Brad Miller
+theme name:     Gameboy Zero 3.5" (OpenDingux Variant)
+version:        1.01
+author:         RxBrad
 email:          brad@rxbrad.com
 website:        RxBrad.com
 license:        creative commons CC BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/3.0/
@@ -11,7 +11,7 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 <theme>
 
     <formatVersion>4</formatVersion>
-	
+
 	<feature supported="carousel">
 		<view name="system">
 			<carousel name="systemcarousel">
@@ -19,7 +19,7 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 				<logoSize>0.22 0.115</logoSize>
 				<logoScale>1.7</logoScale>
 			</carousel>
-			
+
 			<text name="systemInfo">
 				<backgroundColor>FFFFFF99</backgroundColor>
 				<color>000000</color>
@@ -59,7 +59,7 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 			<fontSize>0.04</fontSize>
 		</helpsystem>
 	</view>
-    
+
 	<view name="basic">
 		<image name="background_logo" extra="true">
 			<path>./_inc/images/bg_color.png</path>
@@ -81,6 +81,7 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 			<color>FFFFFFaa</color>
 		</image>
 		<textlist name="gamelist">
+      <alignment>left</alignment>
 			<selectorColor>000000</selectorColor>
 			<selectedColor>FFFFFF</selectedColor>
 			<primaryColor>000000</primaryColor>
@@ -88,11 +89,11 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 			<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
 			<pos>0.03 0.19</pos>
 			<size>0.937 0.69</size>
-			<fontSize>0.06</fontSize>
-			<lineSpacing>1.40</lineSpacing>
+			<fontSize>0.055</fontSize>
+			<lineSpacing>1.47</lineSpacing>
 		</textlist>
 	</view>
-	
+
 	<view name="detailed">
 		<image name="md_image">
 		<origin>0.5 1</origin>
@@ -119,7 +120,7 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 			</image>
 		</view>
 	</feature>
-	
+
 	<feature supported="z-index">
 		<view name="video">
 				<video name="md_video">
@@ -153,7 +154,7 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 		<pos>0.03 0.04</pos>
 		<maxSize>0.325 0.16</maxSize>
 	</image>
-	
+
 	<textlist name="gamelist">
 		<selectorColor>000000</selectorColor>
 		<selectedColor>FFFFFF</selectedColor>
@@ -166,32 +167,11 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 		<lineSpacing>1.50</lineSpacing>
 		<horizontalMargin>0.01</horizontalMargin>
 	</textlist>
-	
-	<image name="md_hidden">
-		<pos>0.085 0.275</pos>
-		<path>./_inc/images/hidden.png</path>
-		<maxSize>0.06 0.06</maxSize>
-	<origin>0.5 1</origin>
-	
-	</image>
-		<image name="md_kidgame">
-		<pos>0.195 0.275</pos>
-		<path>./_inc/images/child.png</path>
-		<maxSize>0.06 0.06</maxSize>
-		<origin>0.5 1</origin>
-	</image>
-	
-	<image name="md_favorite">
-		<pos>0.305 0.275</pos>
-		<path>./_inc/images/star.png</path>
-		<maxSize>0.06 0.06</maxSize>
-		<origin>0.5 1</origin>
-	</image>
-	
+
 	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
 		<pos>1 1</pos>
 	</text>
-	
+
 	</view>
 
 </theme>
