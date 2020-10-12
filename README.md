@@ -11,6 +11,7 @@ This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-
 Changelog
 -----------
 
+- Update Oct 12, 2020: Replaced ES 2.0.0-RC1 incompatible SVG logos with alternate versions.
 - Update Oct 9, 2020: Replaced garbled SNES logo. Changed Basic gamelist text to left-aligned, since ES 2.0.0-RC1 cannot gracefully handle centered text with some fonts.  Tweaked gamelist text sizes for optimal display.  Removed unsupported Child-Friendly code.
 - Update June 8, 2020: **New RG350/RG280 Branch:** Uses July 24, 2017 build, and adds all systems added to current date
 - Update Jul 21, 2017: Added carousel theming
